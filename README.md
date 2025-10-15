@@ -28,26 +28,44 @@ This project automatically fetches the transcript of any YouTube video and gener
 
 ## 📦 Installation
 
-### 1️ Clone this repository
-```bash
-git clone https://github.com/your-username/youtube-video-summarizer.git
-cd youtube-video-summarizer
-### 2 Set up a Python virtual environment
-```bash
-python -m venv venv
-source venv/bin/activate   # On Mac/Linux
-venv\Scripts\activate      # On Windows
-### 3 Install dependencies
+### **1️⃣ Clone this repository**
+- Run the following commands in your terminal:
+  - git clone https://github.com/your-username/youtube-video-summarizer.git
+  -cd youtube-video-summarizer
 
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-  <a href="mailto:deekshithapalvai@gmail.com" target="blank">
-    <img align="center" src="https://cdn-icons-png.flaticon.com/512/732/732200.png" alt="gmail" height="30" width="40" />
-  </a>
-  <a href="https://www.linkedin.com/in/palvaireddy" target="blank">
-    <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="palvaireddy" height="30" width="40" />
-  </a>
-</p>
+## **2️⃣ Set up a Python virtual environment**
+- Create and activate a virtual environment:
+  - python -m venv venv
+  - source venv/bin/activate (Mac/Linux)
+  - venv\Scripts\activate (Windows)
 
+## **3️⃣ Install dependencies** 
 
----
+- Install the required packages:
+
+  -pip install -r requirements.txt
+
+## **4️⃣ Install and set up Ollama**
+- Download Ollama
+   - for your OS. Pull the LLaMA 2 model (or another model you prefer):
+  - ollama pull llama2
+- Ensure the Ollama server is running in the background.
+## ▶️ Usage 
+
+- Run the script:
+
+  - python summarize.py
+- Enter a YouTube video URL when prompted, for example:
+  - https://youtu.be/fNk_zzaMoSs
+
+ The script will:
+
+  - Extract the video ID from the URL
+  
+  - Fetch the transcript
+  
+  - Generate a structured summary using the LLaMA model
+  
+  - Print the summary in your terminal
+  
+  - Save the summary to video_summary.txt in the current directory
