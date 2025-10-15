@@ -28,11 +28,16 @@ This project automatically fetches the transcript of any YouTube video and gener
 
 ## 📦 Installation
 
-### 1️⃣ Clone this repository
+### 1️ Clone this repository
 ```bash
 git clone https://github.com/your-username/youtube-video-summarizer.git
 cd youtube-video-summarizer
-
+### 2 Set up a Python virtual environment
+```bash
+python -m venv venv
+source venv/bin/activate   # On Mac/Linux
+venv\Scripts\activate      # On Windows
+### 3 Install dependencies
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
