@@ -11,9 +11,8 @@
   - Short overall summary
   - Implementation steps (if applicable)
 - Summary saved automatically to video_summary.txt
----
-##🧰 Tech Stack
-
+- 
+## 🧰 Tech Stack
 -Python 3.8+
 -youtube-transcript-api - for fetching YouTube subtitles
 -Ollama – for running LLaMA locally
