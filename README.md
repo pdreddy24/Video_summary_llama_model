@@ -7,8 +7,8 @@
 
 - Automatic transcript extraction using youtube-transcript-api
 - Concise AI-generated summaries using a LLaMA model (via Ollama)
-- Summaries include:
-- ## Main topic
+- ## Summaries include:
+  -  Main topic
   - Key points discussed
   - Short overall summary
   - Implementation steps (if applicable)
