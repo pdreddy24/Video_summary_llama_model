@@ -17,16 +17,16 @@
 -Ollama – for running LLaMA locally
 -LLaMA 2 model (or any other Ollama-supported model)
 ## 📦 Installation
--1️ Clone this repository
+1️ Clone this repository
   git clone https://github.com/your-username/youtube-video-summarizer.git
   cd youtube-video-summarizer
-- 2 Set up a Python virtual environment (recommended)
+2 Set up a Python virtual environment (recommended)
   python -m venv venv
   source venv/bin/activate   # On Mac/Linux
   venv\Scripts\activate      # On Windows
--3 Install dependencies
+3 Install dependencies
   pip install youtube-transcript-api ollama
-- 4️ Install and set up Ollama
+4️ Install and set up Ollama
    -Download Ollama
      for your OS.
   - Pull the LLaMA 2 model (or another model you prefer):
