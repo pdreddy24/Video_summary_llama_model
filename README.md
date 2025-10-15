@@ -5,7 +5,7 @@
 ## 🚀 Features
 - Automatic transcript extraction using youtube-transcript-api
 - Concise AI-generated summaries using a LLaMA model (via Ollama)
-- ## Summaries include:
+- **Summaries include:**
   -  Main topic
   - Key points discussed
   - Short overall summary
