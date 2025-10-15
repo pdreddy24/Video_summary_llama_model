@@ -18,8 +18,8 @@
 -LLaMA 2 model (or any other Ollama-supported model)
 ## 📦 Installation
 - Clone this repository
-  git clone https://github.com/your-username/youtube-video-summarizer.git
-  cd youtube-video-summarizer
+      git clone https://github.com/your-username/youtube-video-summarizer.git
+      cd youtube-video-summarizer
 - Set up a Python virtual environment (recommended)
   python -m venv venv
   source venv/bin/activate   # On Mac/Linux
